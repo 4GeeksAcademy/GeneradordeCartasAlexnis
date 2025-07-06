@@ -1,5 +1,42 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.carta {
+  width: 300px;
+  height: 380px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.esquinas {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.palodeCartas {
+  font-size: 64px;
+  text-align: center;
+}
+
+#abajo{
+  align-self: end;
+  transform: rotate(180deg);
+}
+
+.esquinas {
+    display: flex;
+    flex-direction: column;
 }
